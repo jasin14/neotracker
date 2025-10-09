@@ -9,8 +9,8 @@ export function Header() {
             <Package className="h-6 w-6 text-primary-foreground" />
           </div>
           <div>
-            <h1 className="text-xl font-semibold text-foreground">NEONET</h1>
-            <p className="text-sm text-muted-foreground">System Logistyczny</p>
+            <h1 className="text-xl font-semibold text-foreground">NeoTracker</h1>
+            <p className="text-sm text-muted-foreground">System zarządzania dostawami</p>
           </div>
         </div>
       </div>

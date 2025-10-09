@@ -7,9 +7,8 @@ import "./globals.css"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "NEONET Logistics",
+  title: "NEONET Tracker",
   description: "System zarządzania dostawami NEONET",
-  generator: "v0.app",
 }
 
 export default function RootLayout({

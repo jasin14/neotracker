@@ -5,20 +5,20 @@ export const mockDriver: Driver = {
   name: "Jan Kowalski",
   phone: "+48 123 456 789",
   vehicleNumber: "WA 12345",
-  currentLocation: [52.2297, 21.0122], // Warsaw
+  currentLocation: [52.064722460397036, 20.94252495233471], 
 }
 
 export const mockOrders: Order[] = [
   {
     id: "order-1",
     orderNumber: "NEO-2025-001",
-    storeName: "NEONET Warszawa Centrum",
-    address: "ul. Marszałkowska 104/122",
-    city: "Warszawa",
-    postalCode: "00-017",
-    coordinates: [52.2297, 21.0122],
+    storeName: "NEONET Babice Nowe",
+    address: "ul. Warszawska 195,",
+    city: "Babice Nowe",
+    postalCode: "05-082",
+    coordinates: [52.248574161668245, 20.84549546060348],
     status: "w_drodze",
-    estimatedTime: "10:30",
+    estimatedTime: "15:30",
     products: [
       {
         id: "p1",
@@ -46,13 +46,13 @@ export const mockOrders: Order[] = [
   {
     id: "order-2",
     orderNumber: "NEO-2025-002",
-    storeName: "NEONET Kraków Galeria",
-    address: "ul. Pawia 5",
-    city: "Kraków",
-    postalCode: "31-154",
-    coordinates: [50.0647, 19.945],
+    storeName: "NEONET Warszawa Centrum",
+    address: "Al. Jerozolimskie 148/457",
+    city: "Warszawa",
+    postalCode: "02-326",
+    coordinates: [52.21428144772209, 20.950904919832997],
     status: "oczekujące",
-    estimatedTime: "14:00",
+    estimatedTime: "16:20",
     products: [
       {
         id: "p4",
@@ -73,13 +73,13 @@ export const mockOrders: Order[] = [
   {
     id: "order-3",
     orderNumber: "NEO-2025-003",
-    storeName: "NEONET Wrocław Arkady",
-    address: "pl. Dominikański 3",
-    city: "Wrocław",
-    postalCode: "50-159",
-    coordinates: [51.1079, 17.0385],
+    storeName: "NEONET Skierniewice",
+    address: "Księdza Kardynała Prymasa Stefana Wyszyńskiego 17",
+    city: "Skierniewice",
+    postalCode: "96-100",
+    coordinates: [51.97196760889342, 20.14396022431752],
     status: "oczekujące",
-    estimatedTime: "16:30",
+    estimatedTime: "18:30",
     products: [
       {
         id: "p6",
@@ -94,13 +94,13 @@ export const mockOrders: Order[] = [
 
 export const mockRoute: Route = {
   id: "route-1",
-  name: "Trasa Warszawa - Południe",
+  name: "Trasa Warszawa - Babice Nowe - Skierniewice",
   driver: mockDriver,
   orders: mockOrders,
   status: "active",
   totalStops: 3,
   completedStops: 0,
-  estimatedCompletion: "17:00",
+  estimatedCompletion: "19:00",
 }
 
 export const deliverySteps: DeliveryStep[] = [
