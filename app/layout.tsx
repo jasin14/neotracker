@@ -7,7 +7,7 @@ import "./globals.css"
 import { Suspense } from "react"
 
 export const metadata: Metadata = {
-  title: "NEONET Tracker",
+  title: "NeoTracker",
   description: "System zarządzania dostawami NEONET",
 }
 
